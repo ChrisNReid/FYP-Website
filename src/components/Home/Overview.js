@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Techstack from "./Techstack";
 import Particle from "../Particle";
-import laptopImg from "../../Assets/about.png";
+
 
 function Overview() {
   return (

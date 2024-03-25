@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Particle from "../Particle";
 import funcreqImg from "../../Assets/funcreq.png";
 import nonfuncreqImg from "../../Assets/nonfuncreq.png";
