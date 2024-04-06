@@ -29,10 +29,17 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar justify-content-center"} // Center the navbar
     >
       <Container>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => updateExpanded(!expand)}
-        >
+          <Navbar.Brand href="/" className="d-flex">
+            <span style={{ fontWeight: "bold", fontSize: "24px" }}>FYP by Chris Reid</span>
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              updateExpanded(expand ? false : "expanded");
+            }}
+          >
+
+
           <span></span>
           <span></span>
           <span></span>

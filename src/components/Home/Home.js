@@ -29,7 +29,7 @@ function Home() {
               </div>
               <div className="text-center">
                 <h1 className="heading-name">
-                  Enhancing Security and Safety with Advanced Cloud-driven IoT Implementation in Smart Buildings
+                  Enhancing Security and Safety with Advanced Cloud-driven IoT Implementation in Smart Buildings.
                   <strong className="main-name"> </strong>
                 </h1>
                 <div style={{ padding: 50, textAlign: "left" }}>
